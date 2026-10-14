@@ -1,17 +1,52 @@
-# bookstore
+<h1 align="center">📚 BookStore App</h1>
 
-A new Flutter project.
+<p align="center">
+  A modern BookStore mobile application built with Flutter & Dart.
+</p>
 
-## Getting Started
+<h2 align="center">📱 App Screenshots</h2>
 
-This project is a starting point for a Flutter application.
+<table align="center">
+  <tr>
+    <th>Screen 1</th>
+    <th>Screen 2</th>
+    <th>Screen 3</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="Screenshot%202026-10-14%20144355.png" width="250">
+    </td>
+    <td>
+      <img src="Screenshot%202026-10-14%20144404.png" width="250">
+    </td>
+    <td>
+      <img src="Screenshot%202026-10-14%20144414.png" width="250">
+    </td>
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+<h2>🚀 Technologies Used</h2>
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Material Design
+- Flutter ScreenUtil
+- Custom Reusable Widgets
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h2>✨ Features</h2>
+
+- Modern and Clean UI
+- Welcome Screen
+- Login Screen
+- Register Screen
+- Responsive Design
+- Custom TextFormFields
+- Reusable Buttons
+
+<h2>👨‍💻 Developer</h2>
+
+Developed by **Mostafa Faiz**
+
+<h2>📌 Project Status</h2>
+
+🚧 Currently under development.
