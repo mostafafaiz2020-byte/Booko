@@ -1,15 +1,22 @@
 // Core/routes/app_router.dart
 import 'package:bookstore/Core/routes/App_Routes.dart';
+import 'package:bookstore/Feature/auth/presentation/cubit/cubit/auth_cubit_cubit.dart';
 import 'package:bookstore/Feature/auth/presentation/ui/Register.dart';
 import 'package:bookstore/Feature/auth/presentation/ui/login_screen.dart';
 import 'package:bookstore/Feature/welcome/presentation/ui/welcome_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AppRouter {
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
       case AppRoutes.loginscreen:
-        return MaterialPageRoute(builder: (_) => const LoginScreen());
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => AuthCubitCubit(),
+            child: const LoginScreen(),
+          ),
+        );
 
       case AppRoutes.welcome_screen:
         return MaterialPageRoute(builder: (_) => const WelcomeScreen());
