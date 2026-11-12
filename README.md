@@ -44,14 +44,14 @@ A modern **Flutter Book Store Application** that provides a smooth and user-frie
 
 <p align="center">
   <img src="screenshot/Screenshot_1793723585.png" width="200" alt="Home Screen"/>
-  <img src="screenshot/search1.png" width="200" alt="Search Screen"/>
+ 
   <img src="screenshot/search2.png" width="200" alt="Search Results"/>
 </p>
 
 ### Book Details
 
 <p align="center">
-  <img src="screenshot/book%20details.png" width="200" alt="Book Details"/>
+  
   <img src="screenshot/book%20details2.png" width="200" alt="Book Details"/>
 </p>
 
@@ -72,17 +72,5 @@ A modern **Flutter Book Store Application** that provides a smooth and user-frie
 
 <p align="center">
   <img src="screenshot/profile.png" width="200" alt="Profile Screen"/>
-</p>
-
-## 👩‍💻 Developer
-
-**Habiba Mahmoud**
-
-GitHub: [@habibamahmoud5](https://github.com/habibamahmoud5)
-
----
-
-<p align="center">
-  Made with ❤️ using Flutter
 </p>
 
