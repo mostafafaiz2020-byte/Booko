@@ -1,4 +1,4 @@
-# Bookia – Book Store App
+# Booko – Book Store App
 
 A Flutter application for browsing and purchasing books online.
 
